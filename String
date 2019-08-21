@@ -1,0 +1,2 @@
+// To get substring
+str[0:3] // start and end location.
