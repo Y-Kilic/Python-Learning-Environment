@@ -21,3 +21,7 @@ x, y, z = 1, 2, 3
 / or same result
 x = y = z = 1
 / Result of x, y, z will be 1
+
+// Get type of variable
+type(variable_name)
+Example = print(variable_name)
