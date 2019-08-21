@@ -25,3 +25,9 @@ x = y = z = 1
 // Get type of variable
 type(variable_name)
 Example = print(variable_name)
+
+// If you would like to include variable type do it this way
+example: example: str = "test"
+example: example2: int = 10
+/ This will have no impact on the code just for user friendly reading.
+/ Some linters like mypy will complain when you set variable that was already defined to int to string.
