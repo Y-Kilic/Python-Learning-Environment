@@ -1,19 +1,23 @@
 - Variable names should be all lower case and words seperated by underscore.
 example_count = 1000 // This is a integer
 
-example_rating = 4.99
+example_rating = 4.99 // This is a float
 
-is_example = True
+is_example = True // This is a boolean
 
-example_name = "Python"
-example_name2 = 'Python'
+example_name = "Python" // String (str)
+example_name2 = 'Python' / String (str) single quote
 
 
 example_name3 = """
 Multiple
 Python
 Lines
-"""
+""" // String (str) triple quote
+
+// Lists
+temp_list = [1, 2, 3, 4, 5]
+temp_list.append(6) / 6 will be added at the end of the list.
 
 // initialize multiple variables same time.
 x, y, z = 1, 2, 3
@@ -33,3 +37,5 @@ example: example2: int = 10
 / Some linters like mypy will complain when you set variable that was already defined to int to string.
 
 // Mutable and Immutable Types
+
+List is mutable / example temp
