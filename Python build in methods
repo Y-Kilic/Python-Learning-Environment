@@ -1,0 +1,11 @@
+// Return the number of items in a container.
+Example if you put in a string, it will return count of characters.
+If you put in a list it will return count of items in the list.
+len()
+
+// You can also use brackets to get item from the brackets depending on the input.
+If you put in a string you get the character at the given index, or if you use a list you will get
+the item. Example: some_string[0] or some_list[1]
+Python also has negative index. So some_string = "Hello World!"
+some_string[-1] will result to ! because it goes backwards.
+To get multiple results back from a string or list. Example use some_string[0:4] will result to Hello
