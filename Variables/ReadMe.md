@@ -39,3 +39,6 @@ example: example2: int = 10
 // Mutable and Immutable Types
 
 List is mutable / example temp
+
+// Get memory location of a variable or object.
+print(id(variable_name_here))
