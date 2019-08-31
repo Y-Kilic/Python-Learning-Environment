@@ -4,6 +4,12 @@ def increment(number = 0, by = 0):
 
 print(increment(number=2, by=3))
 
+// How to create a method with int input and int output
+def increment(number: int = 0, by: int = 0) -> int:
+    return (number, number + by)
+
+print(increment(number=2, by=3))
+
 // Asks for input and assigns it to input variable
 input = input("Give me some input:")
 
