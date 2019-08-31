@@ -1,0 +1,22 @@
+
+// If statement, note that in Python you have whitespace to define a code block. but you can use {} if you want.
+number1 = 1
+number2 = 2
+
+if(number1 >= number2):
+    print("True")
+elif(number1 <= number2):
+    print("True2")
+else:
+    print("else")
+    
+or
+
+number1 = 1
+number2 = 2
+if(number1 >= number2):
+    {print("True")}
+elif(number1 <= number2):
+    {print("True2")}
+else:
+    {print("else")}
