@@ -45,3 +45,9 @@ List is mutable / example temp
 
 // Get memory location of a variable or object.
 print(id(variable_name_here))
+
+// boolean Falsy values, everything else is true
+- ""
+- 0
+- []
+- None (null)
