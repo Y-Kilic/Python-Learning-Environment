@@ -1,3 +1,6 @@
+// Use uppercase to define constants. 
+EXAMPLE_COUNT2 = 10 // This tells the team that it is a constant and should not be changed.
+
 - Variable names should be all lower case and words seperated by underscore.
 example_count = 1000 // This is a integer
 
