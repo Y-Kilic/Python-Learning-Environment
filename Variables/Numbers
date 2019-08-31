@@ -13,6 +13,7 @@ print(hex(example_number1))
 // Math
 import math
 math.floor(example) // after importing math you can use its functions for math
+for more math functions: https://docs.python.org/3/library/math.html
 
 example_number4 = 1 + 2j // result: 1+2j
 
