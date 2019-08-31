@@ -20,3 +20,8 @@ elif(number1 <= number2):
     {print("True2")}
 else:
     {print("else")}
+
+// Logical operators:
+- and
+- or // Example if(1 > 2 and 2 == 2 or not 1 == 1): print("Example")
+- not // Example: if(1 > 2 and 2 == 2 or not 1 == 1): print("Example")
