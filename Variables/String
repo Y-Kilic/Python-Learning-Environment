@@ -30,3 +30,5 @@ print(example_string6.lstrip()) // remove spaces at the beginning of the string.
 print(example_string6.rstrip()) // remove spaces at the end of the string.
 print(example_string6.find("World")) // Get starting index of word in the string. CASE SENSETIVE
 print(example_string6.replace("World!", "Universe!")) // Replace words inside a string. result: Hello Universe!
+print("Hello" in example_string6) // result: True (because Hello is inside Hello World!)
+print("Hello" not in example_string6) // result: False (because Hello is inside Hello World!)
