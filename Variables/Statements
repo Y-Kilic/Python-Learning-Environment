@@ -25,3 +25,6 @@ else:
 - and
 - or // Example if(1 > 2 and 2 == 2 or not 1 == 1): print("Example")
 - not // Example: if(1 > 2 and 2 == 2 or not 1 == 1): print("Example")
+
+// ternary operator if operator
+message = "True" if 1 > 2 else "False"
