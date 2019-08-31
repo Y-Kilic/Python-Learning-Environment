@@ -1,6 +1,9 @@
 // To get substring
 str[0:3] // start and end location.
 
+// To get length (count) of string
+len(example_string)
+
 // Ways to initialize a string
 example_name1 = "Python" // double quote.
 example_name2 = 'Python' // single quote.
@@ -13,3 +16,17 @@ Lines """ // triple quote.
 example_first_name = "Jason"
 example_second_name = "Last"
 example_name4 = f"{example_first_name} {example_second_name}" // result: "Jason Last"
+
+// You can do math in strings by using formatting.
+example_name5 = f"{10 + 10}" // result: 20
+
+// String methods
+example_string6 = "Hello World!"
+print(example_string6.upper()) // result: HELLO WORLD!
+print(example_string6.lower()) // result: hello world!
+print(example_string6.title()) // every first letter of a word is upper case. result: Hello World!
+print(example_string6.strip()) // remove spaces at the beginning and end of the string.
+print(example_string6.lstrip()) // remove spaces at the beginning of the string.
+print(example_string6.rstrip()) // remove spaces at the end of the string.
+print(example_string6.find("World")) // Get starting index of word in the string. CASE SENSETIVE
+print(example_string6.replace("World!", "Universe!")) // Replace words inside a string. result: Hello Universe!
