@@ -11,3 +11,11 @@ print(hex(example_number1))
 // Math
 example_number4 = 1 + 2j // result: 1+2j
 
+example_number5 = 10 + 3 // result: 13
+example_number6 = 10 - 3 // result: 7
+example_number7 = 10 * 3 // result: 30
+example_number8 = 10 / 3 // result: 3.333333335 (float)
+example_number9 = 10 // 3 // result: 3 (int)
+example_number10 = 10 % 3 // result: 1
+example_number11 = 10 ** 3 // left to power of right. result: 1000
+example_number1 = x += 1 // result: 2 because x was 1 and 1 got added. basically 1+1
