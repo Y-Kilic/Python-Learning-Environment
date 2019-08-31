@@ -58,4 +58,12 @@ for name in names:
 if not found:
     print("Not found")
     
+// While loop example
+
+guess = 0
+answer = 5
+
+while answer != guess:
+    guess = int(input("Guess: "))
+    
     
