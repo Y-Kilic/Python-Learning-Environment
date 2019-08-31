@@ -1,2 +1,15 @@
 // To get substring
 str[0:3] // start and end location.
+
+// Ways to initialize a string
+example_name1 = "Python" // double quote.
+example_name2 = 'Python' // single quote.
+example_name3 = """ 
+Multiple
+Python
+Lines """ // triple quote.
+
+// Formatting the string and inserting variables.
+example_first_name = "Jason"
+example_second_name = "Last"
+example_name4 = f"{example_first_name} {example_second_name}" // result: "Jason Last"
