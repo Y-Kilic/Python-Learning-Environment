@@ -19,3 +19,7 @@ example_number9 = 10 // 3 // result: 3 (int)
 example_number10 = 10 % 3 // result: 1
 example_number11 = 10 ** 3 // left to power of right. result: 1000
 example_number1 = x += 1 // result: 2 because x was 1 and 1 got added. basically 1+1
+
+PI = 3.14
+print(round(PI)) // result: 3
+print(abs(-10)) // result: 10 // turns negative number to positive?
