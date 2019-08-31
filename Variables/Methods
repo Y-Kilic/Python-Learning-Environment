@@ -1,0 +1,11 @@
+// Asks for input and assigns it to input variable
+input = input("Give me some input:")
+
+// Prints the input
+print(input)
+
+// Convert variables
+int(input)
+float(input)
+bool(input)
+str(input)
